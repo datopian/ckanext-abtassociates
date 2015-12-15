@@ -1,0 +1,75 @@
+.masthead {
+  color:@text-color;
+  padding-bottom: 20px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 1;
+
+  .logo {
+    display: table;
+
+    .image {
+      border-right: solid 1px @lightgrey;
+      display: table-cell;
+      padding-right: 10px;
+
+      img {
+        width: 70px;
+      }
+    }
+    .text {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 10px;
+
+      h1 {
+        font-weight: 400;
+        font-size: 32px;
+        color: @accent;
+      }
+    }
+  }
+  .navigation {
+    margin: 20px -15px 10px 10px;
+
+    .nav > li {
+      & > a {
+        color: @primary;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      & > a:focus,
+      & > a:hover,
+      &.active > a,
+      &.active > a:hover,
+      &.active > a:focus {
+        color: @primary;
+        background-color: #fff;
+        box-shadow: none;
+      }
+    }
+    .nav-pills {
+      margin: 0;
+
+      li a:hover,
+      li.active a {
+        background-color: #fff;
+      }
+    }
+  }
+
+  .site-search {
+    display: none;
+  }
+
+  .btn-navbar,
+  .btn-navbar:hover,
+  .btn-navbar:focus,
+  .btn-navbar:active,
+  .btn-navbar.active,
+  .btn-navbar.disabled,
+  .btn-navbar[disabled] {
+    background-color: @primary;
+  }
+}
