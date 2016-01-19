@@ -1,0 +1,281 @@
+# English (United States) translations for ckan.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the ckan project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckan 2.5.0b\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-11-26 13:42+0000\n"
+"PO-Revision-Date: 2016-01-18 16:28+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+
+
+#: ckan/controllers/feed.py:234
+msgid "Organization not found"
+msgstr "Project"
+
+#: ckan/controllers/group.py:310 ckan/controllers/home.py:67
+#: ckan/controllers/package.py:239 ckan/lib/helpers.py:755
+#: ckan/templates/header.html:104 ckan/templates/organization/edit_base.html:5
+#: ckan/templates/organization/edit_base.html:8
+#: ckan/templates/organization/index.html:3
+#: ckan/templates/organization/index.html:6
+#: ckan/templates/organization/index.html:18
+#: ckan/templates/organization/read_base.html:3
+#: ckan/templates/organization/read_base.html:6
+#: ckan/templates/package/base.html:14
+msgid "Organizations"
+msgstr "Projects"
+
+#: ckan/controllers/group.py:649
+msgid "Organization has been deleted."
+msgstr "Project has been deleted"
+
+#: ckan/lib/activity_streams.py:70
+msgid "{actor} updated the organization {organization}"
+msgstr "{actor} updated the project {organization}"
+
+#: ckan/lib/activity_streams.py:95
+msgid "{actor} deleted the organization {organization}"
+msgstr "{actor} deleted the project {organization}"
+
+#: ckan/lib/activity_streams.py:111
+msgid "{actor} created the organization {organization}"
+msgstr "{actor} created the project {organization}"
+
+#: ckan/logic/validators.py:30 ckan/logic/validators.py:39
+msgid "A organization must be supplied"
+msgstr "A project must be supplied"
+
+#: ckan/logic/validators.py:44
+msgid "Organization does not exist"
+msgstr "Project does not exist"
+
+#: ckan/logic/validators.py:49
+msgid "You cannot add a dataset to this organization"
+msgstr "You cannot add a dataset to this project"
+
+#: ckan/logic/validators.py:764
+msgid "Datasets with no organization can't be private."
+msgstr "Datasets with no project can't be private."
+
+#: ckan/logic/action/create.py:862
+msgid "Trying to create an organization as a group"
+msgstr "Trying to create a project as a group"
+
+#: ckan/logic/action/update.py:1098
+msgid "Organization was not found."
+msgstr "Project was not found."
+
+#: ckan/logic/auth/create.py:36
+#, python-format
+msgid "User %s not authorized to add dataset to this organization"
+msgstr "User %s not authorized to add dataset to this project"
+
+#: ckan/logic/auth/create.py:145
+#, python-format
+msgid "User %s not authorized to create organizations"
+msgstr "User %s not authorized to create projects"
+
+#: ckan/logic/auth/delete.py:125
+#, python-format
+msgid "User %s not authorized to delete organizations"
+msgstr "User %s not authorized to delete projects"
+
+#: ckan/logic/auth/delete.py:129
+#, python-format
+msgid "User %s not authorized to delete organization %s"
+msgstr "User %s not authorized to delete project %s"
+
+#: ckan/logic/auth/update.py:126
+#, python-format
+msgid "User %s not authorized to edit organization %s"
+msgstr "User %s not authorized to edit project %s"
+
+#: ckan/templates/group/member_new.html:81
+msgid ""
+" <p><strong>Admin:</strong> Can edit group information, as well as manage"
+" organization members.</p> <p><strong>Member:</strong> Can add/remove "
+"datasets from groups</p> "
+msgstr ""
+" <p><strong>Admin:</strong> Can edit group information, as well as manage"
+" project members.</p> <p><strong>Member:</strong> Can add/remove "
+"datasets from groups</p> "
+
+#: ckan/templates/home/snippets/stats.html:17
+msgid "organization"
+msgstr "project"
+
+#: ckan/templates/home/snippets/stats.html:17
+msgid "organizations"
+msgstr "projects"
+
+#: ckan/templates/organization/base_form_page.html:5
+msgid "Organization Form"
+msgstr "Project Form"
+
+#: ckan/templates/organization/bulk_process.html:88
+msgid "This organization has no datasets associated to it"
+msgstr "This project has no datasets associated to it"
+
+#: ckan/templates/organization/confirm_delete.html:11
+msgid "Are you sure you want to delete organization - {name}?"
+msgstr "Are you sure you want to delete project - {name}?"
+
+#: ckan/templates/organization/edit.html:6
+#: ckan/templates/organization/snippets/info.html:13
+#: ckan/templates/organization/snippets/info.html:16
+msgid "Edit Organization"
+msgstr "Edit Project"
+
+#: ckan/templates/organization/index.html:13
+#: ckan/templates/user/dashboard_organizations.html:7
+msgid "Add Organization"
+msgstr "Add Project"
+
+#: ckan/templates/organization/index.html:20
+msgid "Search organizations..."
+msgstr "Search projects..."
+
+#: ckan/templates/organization/index.html:29
+msgid "There are currently no organizations for this site"
+msgstr "There are currently no projects for this site"
+
+#: ckan/templates/organization/member_new.html:82
+msgid ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage organization members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage organization members.</p> "
+"<p><strong>Member:</strong> Can view the organization's private datasets,"
+" but not add new datasets.</p> "
+msgstr ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage project members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage project members.</p> "
+"<p><strong>Member:</strong> Can view the project's private datasets,"
+" but not add new datasets.</p> "
+
+#: ckan/templates/organization/new.html:3
+#: ckan/templates/organization/new.html:5
+#: ckan/templates/organization/new.html:7
+#: ckan/templates/organization/new.html:12
+msgid "Create an Organization"
+msgstr "Create a Project"
+
+#: ckan/templates/organization/new_organization_form.html:17
+msgid "Update Organization"
+msgstr "Update Project"
+
+#: ckan/templates/organization/new_organization_form.html:19
+msgid "Create Organization"
+msgstr "Create Project"
+
+#: ckan/templates/organization/snippets/feeds.html:3
+msgid "Datasets in organization: {group}"
+msgstr "Datasets in project: {group}"
+
+#: ckan/templates/organization/snippets/help.html:4
+#: ckan/templates/organization/snippets/helper.html:4
+msgid "What are Organizations?"
+msgstr "What are Projects?"
+
+#: ckan/templates/organization/snippets/help.html:7
+msgid ""
+" <p>Organizations act like publishing departments for datasets (for "
+"example, the Department of Health). This means that datasets can be "
+"published by and belong to a department instead of an individual "
+"user.</p> <p>Within organizations, admins can assign roles and authorise "
+"its members, giving individual users the right to publish datasets from "
+"that particular organisation (e.g. Office of National Statistics).</p> "
+msgstr ""
+" <p>Projects act like publishing departments for datasets (for "
+"example, the Department of Health). This means that datasets can be "
+"published by and belong to a department instead of an individual "
+"user.</p> <p>Within projects, admins can assign roles and authorise "
+"its members, giving individual users the right to publish datasets from "
+"that particular project (e.g. Office of National Statistics).</p> "
+
+#: ckan/templates/organization/snippets/helper.html:8
+msgid ""
+" CKAN Organizations are used to create, manage and publish collections of"
+" datasets. Users can have different roles within an Organization, "
+"depending on their level of authorisation to create, edit and publish. "
+msgstr ""
+" CKAN Projects are used to create, manage and publish collections of"
+" datasets. Users can have different roles within a Project, "
+"depending on their level of authorisation to create, edit and publish. "
+
+#: ckan/templates/organization/snippets/organization_form.html:10
+msgid "My Organization"
+msgstr "My Project"
+
+#: ckan/templates/organization/snippets/organization_form.html:18
+msgid "my-organization"
+msgstr "my-project"
+
+#: ckan/templates/organization/snippets/organization_form.html:20
+msgid "A little information about my organization..."
+msgstr "A little information about my project..."
+
+#: ckan/templates/organization/snippets/organization_form.html:60
+msgid ""
+"Are you sure you want to delete this Organization? This will delete all "
+"the public and private datasets belonging to this organization."
+msgstr ""
+"Are you sure you want to delete this Project? This will delete all "
+"the public and private datasets belonging to this project."
+
+#: ckan/templates/organization/snippets/organization_form.html:64
+msgid "Save Organization"
+msgstr "Save Project"
+
+#: ckan/templates/package/snippets/package_basic_fields.html:70
+#: ckan/templates/snippets/organization.html:23
+msgid "Organization"
+msgstr "Project"
+
+#: ckan/templates/package/snippets/package_basic_fields.html:74
+msgid "No organization"
+msgstr "No project"
+
+#: ckan/templates/snippets/organization.html:48
+msgid "There is no description for this organization"
+msgstr "There is no description for this project"
+
+#: ckan/templates/snippets/search_result_text.html:27
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "{number} project found for \"{query}\""
+msgstr[1] "{number} projects found for \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:28
+msgid "No organizations found for \"{query}\""
+msgstr "No projects found for \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:29
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "{number} project found"
+msgstr[1] "{number} projects found"
+
+#: ckan/templates/snippets/search_result_text.html:30
+msgid "No organizations found"
+msgstr "No projects found"
+
+#: ckan/templates/user/dashboard.html:21
+#: ckan/templates/user/dashboard_organizations.html:12
+msgid "My Organizations"
+msgstr "My Projects"
+
+#: ckan/templates/user/dashboard_organizations.html:20
+msgid "You are not a member of any organizations."
+msgstr "You are not a member of any projects."
