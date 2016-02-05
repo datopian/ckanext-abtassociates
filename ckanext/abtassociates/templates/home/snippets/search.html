@@ -2,7 +2,7 @@
 {% set placeholder = _('E.g. environment') %}
 
 <form class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
-  <h2 class="heading">{{ _("Search data") }}</h2>
+  <h2 class="heading">{{ _("Search datasets") }}</h2>
   <div class="search-input control-group search-giant">
     <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="{% block search_placeholder %}{{ placeholder }}{% endblock %}" />
     <button type="submit">

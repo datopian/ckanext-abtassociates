@@ -12,4 +12,19 @@
           </h1>
         </div>
       </a>
+      <div style="padding-top:30px">
+        {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
+      </div>
+
       {% endblock %}
+
+{% block header_site_navigation_tabs %}
+  {{ h.build_nav_main(
+    ('search', _('Datasets')),
+    ('organizations_index', _('Organizations')),
+    ('group_index', _('Groups')),
+  ) }}
+    <li><a href="http://abtassociates.com/"></i>About</a></li>
+
+{% endblock %}
+

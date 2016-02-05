@@ -1,5 +1,9 @@
 {% ckan_extends %}
 
+{% block footer_links %}
+  <li><a href="http://abtassociates.com/" target="_blank">{{ _('About {0}').format(g.site_title) }}</a></li>
+{% endblock %}
+
 {% block footer_attribution %}
     {% trans %}
         <a href="http://ckan.org" rel="external">
